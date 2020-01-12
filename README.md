@@ -9,6 +9,6 @@ The banking system provides two simulated interfaces, the ATM interface and the 
 ## Bank Teller Interface Features
 - Create account
 - Submit check transactions
-- Add interest
+- Add monthly interest
 - Generate Monthly Statement and report for a customer
 - Generate Government Drug and Tax Evasion Report (DTER)
