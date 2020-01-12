@@ -4,7 +4,7 @@ The banking system provides two simulated command line interfaces, the ATM inter
 - Log in using user ID and pin
 - Deposit & withdraw money
 - Transfer money to another owned account
-- Collect money from a pocket account
+- Collect and top-up for a pocket account
 - Wire & pay-friend
 ## Bank Teller Interface Features
 - Create account
