@@ -10,5 +10,5 @@ The banking system provides two simulated interfaces, the ATM interface and the 
 - Create account
 - Submit check transactions
 - Add monthly interest
-- Generate Monthly Statement and report for a customer
+- Generate monthly statement for a customer
 - Generate Government Drug and Tax Evasion Report (DTER)
