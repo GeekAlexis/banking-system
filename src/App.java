@@ -2422,18 +2422,18 @@ public class App implements Testable
 	}
 
 	private static String hash(String input) {
-  	String output = "";
-    try {
-      MessageDigest sha256 = MessageDigest.getInstance("SHA-256");
-      byte hash_bytes[] = sha256.digest(input.getBytes());
-      BigInteger hash_num = new BigInteger(1, hash_bytes);
-      output = hash_num.toString(16);
-    }
-    catch( NoSuchAlgorithmException e ) {
-      System.err.println( e.getMessage() );
-    }
-    return output;
-  }
+  		String output = "";
+	    	try {
+	      		MessageDigest sha256 = MessageDigest.getInstance("SHA-256");
+	      		byte hash_bytes[] = sha256.digest(input.getBytes());
+	      		BigInteger hash_num = new BigInteger(1, hash_bytes);
+	      		output = hash_num.toString(16);
+	    	}
+	    	catch( NoSuchAlgorithmException e ) {
+	      		System.err.println( e.getMessage() );
+	    	}
+	    	return output;
+	  }
 }
 
 class CompKeyStr implements Comparator<String>{
