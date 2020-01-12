@@ -3,7 +3,7 @@ The banking system provides two simulated interfaces, the ATM interface and the 
 ## ATM Interface Features
 - Log in using user ID and pin
 - Deposit & withdraw money
-- Transfer money to a another owned account
+- Transfer money to another owned account
 - Collect money from a pocket account
 - Wire & pay-friend
 ## Bank Teller Interface Features
